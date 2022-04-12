@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif;
+}
+
+label[target="_blank"] {
+    /* background-color: yellow; */
+    display: inline-block;
+}
+
+.labelEmails[target="emailmargin"] {
+    margin-bottom: 5px;
+    ;
+}
+
+form {
+    padding: 100px;
+
+}
+
+input {
+    border: 0.4px solid rgba(0, 0, 0, 0.381);
+}
+
+div input[target="email"] {
+    width: 31%;
+
+}
+
+input[target="name"] {
+    width: 14%;
+}
+
+input::placeholder {
+    color: rgb(147, 146, 146);
+
+    font-size: xx-small;
+    padding: 10px 0 10px 5px;
+}
+
+input[target="nachname"] {
+    width: 16%;
+}
+
+input[target="nachricht"] {
+    width: 31%;
+    padding-bottom: 94px;
+
+}
+
+select[target="select"] {
+    background-color: rgba(152, 155, 161, 0.154);
+    font-size: xx-small;
+    width: 31.7%;
+}
+
+select [target="options"] {
+    color: rgb(238, 235, 228);
+}
+
+div [target="button"] {
+    background: rgb(84, 192, 214);
+    color: white;
+    width: 31.4%;
+    margin-top: 15px;
+
+    font-size: x-small;
+    border: none;
+    padding: 10px 2px;
+}

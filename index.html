@@ -11,32 +11,37 @@
 
 <body>
     <form action="">
-        <div>
-            <label for="username">Name*</label>
-            <input type="text" name="username" id="username" required>
+
+        <div class="labelName">
+            <label for="username" target="_blank">Name*</label>
         </div>
-        <div>
-            <label for="username">Nachname*</label>
-            <input type="text" name="surname" id="surname" required>
+        <div class="inputNames">
+            <input type="text" name="username" id="username" placeholder="Vorname" target="name" required>
+            <input type="text" name="surname" id="surname" placeholder="Nachname" target="nachname" required>
         </div>
-        <div>
-            <label for="">Email*</label>
-            <input type="email" name="" id="" required>
+        <div class="labelEmail"> <label for="" target="emailmargin" required>Email*</label></div>
+
+        <div class="">
+            <input type="email" name="" id="" target="email" required>
         </div>
 
-        <div>
-            <label for="">Thema</label>
-            <select name="" id="">
-                <option value="General">General</option>
-                <option value="Advertise">Advertise</option>
-                <option value="Partnership">Partnership</option>
+        <div class="labelThema"> <label for="">Thema</label></div>
+        <div class="select">
+
+            <select name="" id="" target="select">
+
+                <option value="General" target="options">General</option>
+                <option value="Advertise" target="options">Advertise</option>
+                <option value="Partnership" target="options">Partnership</option>
+
             </select>
         </div>
-        <div> <input type="submit"></div>
-
-        <div><label for="" required>Nachricht*</label></div>
-        <input type="text" name="" id="" required>
+        <div class="labelNachricht"><label for="" required>Nachricht*</label></div>
+        <div class="Textfield">
+            <input type="text" name="" id="" target="nachricht" required>
         </div>
+        <div> <input type="submit" target="button"></div>
+
 
 
 
